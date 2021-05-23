@@ -34,12 +34,12 @@ def buildTrie():
 def punish_user(user_id):
     user_id = '<@' + str(user_id) + '>'
     responses = [
-        "You kiss your mother with that mouth, {}?",
-        "That's some colorful language, {}.",
         "Come on now, {}. Did you really need to say that?",
         "{} - LANGUAGE!",
         "Hey now {}, watch your mouth.",
-        "We don't use that kind of language here, {}."
+        "We don't use that kind of language here, {}.",
+        "Please refrain from using abusive words, {}.",
+        "Mind your language, {}."
     ]
 
     choice = random.choice(responses)
