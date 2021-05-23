@@ -9,5 +9,5 @@ Proceed as follows:
 `pip install -r requirements.txt`  
 Create a bot application in discord and copy the generated URL and add the bot to your server.  
 Then create a '.env' file in the folder and write DISCORD_TOKEN=<discord_token> where "<discord_token>" is generated on creating the bot application.  
-`main.py`
+`main.py`  
  VOILA! You're good to go.
